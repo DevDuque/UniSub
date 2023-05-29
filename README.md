@@ -22,11 +22,17 @@
 ## 🚀 Tech
 This project was developed with the following techs:
 
+* Code
 - Angular
 - HTML
 - SCSS
 - Ionic
 - Typescript
+
+* Design
+- Figma
+- Mockups
+- SVG Icons
 
 ## 💻 Project
 UniSub is an app that unites all kinds of subscriptions, from photoshop to netflix. Highlighting if there is a discount for university students. Many subscription plans have discounts for college students that people don't know about, so we can keep people informed and more aware of it.
