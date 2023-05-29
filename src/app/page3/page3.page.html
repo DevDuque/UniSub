@@ -1,0 +1,80 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="#DCCCBB">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title color="#182825"> 
+      <ion-icon 
+        routerLink="/profile-page" 
+        size="large" 
+        src="../../assets/icon/profileSVG.svg">
+    </ion-icon>
+      Uni Sub
+      <ion-icon 
+        routerLink="/notification-page" 
+        size="large" 
+        src="../../assets/icon/bellIcon.svg"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <div id="header">
+    <ion-icon
+    src="../../assets/icon/office.svg"
+    >
+  </ion-icon>
+</div>
+  <div id="plans">
+    <ion-item lines="full">
+      <ion-label class="ion-text-wrap">
+        <div id="p1">
+          <h1> Microsoft 365 <br/> Family</h1>
+          <p id="pp">For one to six people to share.
+            Each person can use on up to five devices simultaneously.
+            Works on PC, Mac, iPhone, iPad, and Android phones and tablets.
+            <br />Up to 6 TB of cloud storage (1 TB per person).
+            Additional features in the Family Safety mobile app.
+          </p>
+          <a></a>
+        </div>
+      </ion-label>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label class="ion-text-wrap">
+        <div id="p1">
+        <h1>Microsoft 365 <br/> Personal</h1>
+          <p>
+            For one person.
+            Use up to five devices simultaneously. 
+            Works on PC, Mac, iPhone, iPad, and Android phones and tablets.
+            1 TB of cloud storage.
+          </p>
+          <a></a>
+        </div>
+        
+      </ion-label>
+    </ion-item>
+    <ion-item lines="full">
+    <ion-label class="ion-text-wrap">
+    <div id="p1">
+      <h1> Microsoft 365 <br/> Free</h1>
+      <p>Students and educators at eligible institutions can sign up for Office 365 Education for free.
+      </p>
+      <a style="text-align: center; text-decoration: none; margin-left: 20px; color:#DD6140;" href="#"> About</a>
+    </div>
+    </ion-label>
+    </ion-item>
+   
+    <div id="uni">
+      <ion-icon
+        src="../../assets/icon/uni.svg">
+  </ion-icon>
+  <h1> University Discount: Yes</h1>
+</div>
+<div class="ion-text-center">
+<ion-button href="" color="warning" shape="round" >Choose A Plan</ion-button>
+    </div>
+  </div>
+    
+</ion-content>

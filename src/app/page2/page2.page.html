@@ -1,0 +1,64 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="#DCCCBB">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title color="#182825"> 
+      <ion-icon 
+        routerLink="/profile-page" 
+        size="large" 
+        src="../../assets/icon/profileSVG.svg">
+    </ion-icon>
+      Uni Sub
+      <ion-icon 
+        routerLink="/notification-page" 
+        size="large" 
+        src="../../assets/icon/bellIcon.svg"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <div id="header">
+    <ion-icon
+    src="../../assets/icon/hbo.svg"
+    >
+  </ion-icon>
+</div>
+  <div id="plans">
+    <ion-item lines="full">
+      <ion-label class="ion-text-wrap">
+        <div id="p1">
+          <h1> Standard <br/> w/ads</h1>
+          <p>Watch everything with limited ads for a lower price; Exclusive streaming access to the biggest Warner Bros. movies; 13,000+ hours of series, movies, and new exclusive programming (Max Originals)
+          </p>
+          <a style="text-align: center; margin-left: 20px; text-decoration: none;" href="https://help.hbomax.com/us/Answer/Detail/000001285"> About The Ads</a>
+        </div>
+      </ion-label>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label class="ion-text-wrap">
+        <div id="p1">
+        <h1>Ads Free</h1>
+          <p>
+            Download shows and movies to watch on-the-go;
+            All of your HBO favorites;
+            Select favorites from the iconic brands of Warner Bros., DC, Cartoon Network, Adult Swim, Turner Classic Movies, and much more; A robust selection of acquired series and movies;
+          </p>
+          <a></a>
+        </div>
+      </ion-label>
+    </ion-item>
+   
+    <div id="uni">
+      <ion-icon
+        src="../../assets/icon/uni.svg">
+  </ion-icon>
+  <h1> University Discount: No</h1>
+</div>
+<div class="ion-text-center">
+<ion-button href="" color="tertiary" shape="round" >Choose A Plan</ion-button>
+    </div>
+  </div>
+    
+</ion-content>

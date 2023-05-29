@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #DCCCBB;
+    color: #182825;
+}
+
+ion-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #182825;
+}
+
+
+ion-button {
+    color: #DCCCBB;
+    
+}
+
+ion-title {
+    font-size: 30px;
+    color:#182825;
+    font-weight: 800;
+    text-align: center;
+}
+
+ion-label {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#header {
+    flex: 1;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 0;
+
+}
+
+#header h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+a {
+    background: -webkit-linear-gradient(#991eeb, #5822b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#header ion-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 200px;
+    background: -webkit-linear-gradient(#991eeb, #5822b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#p1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+} 
+
+#p1 p {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+#p1 h1 {
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+#plans {
+    margin: 0;
+    padding: 0;
+    ion-button {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+#uni {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    align-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 0;
+    h1 {
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 30px;
+        text-align: start;
+    }
+    ion-icon {
+    font-size: 60px;
+    text-align: center;
+    text-transform: none;
+    color:#DCCCBB;
+}
+}
+
+
+

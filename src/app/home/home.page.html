@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="#DCCCBB">
+    
+    <ion-title color="#182825"> 
+      <ion-icon 
+        routerLink="/profile-page" 
+        size="large" 
+        src="../../assets/icon/profileSVG.svg">
+    </ion-icon>
+      Uni Sub
+      <ion-icon 
+        routerLink="/notification-page" 
+        size="large" 
+        src="../../assets/icon/bellIcon.svg"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+
+  <div id="container" color="#DCCCBB" >
+
+    <ion-item routerLink="/page1" lines="full">
+      <ion-label class="ion-text-wrap">
+        <ion-text>
+        <h1>Netflix</h1>
+        <p>We offer a variety of plans to meet your entertainment needs. A Netflix account is for people who live together in a single household.</p>
+        </ion-text>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item routerLink="/page2" lines="full">
+      <ion-label class="ion-text-wrap">
+        <h1>HBO Max</h1>
+        <p>We offer vast library that includes all of HBO's prestige series, like Game of Thrones. Plus, the service has its own originals like The Flight Attendant.</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item routerLink="/page3" lines="full">
+      <ion-label class="ion-text-wrap">
+        <h1>MS Office</h1>
+        <p>Apps to manage the everyday
+          With Microsoft 365, get the apps, security, and storage you need to accomplish your goals.</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item routerLink="/page4" lines="full">
+      <ion-label class="ion-text-wrap">
+        <ion-text>
+        <h1>Photoshop</h1>
+        <p>With Photoshop, everyone can. Add new color to your old black-and-whites. Make unwanted stuff disappear. Or turn a boring background into an exotic paradise.</p>
+        </ion-text>
+      </ion-label>
+    </ion-item>
+  </div>
+</ion-content>
