@@ -22,14 +22,14 @@
 ## 🚀 Tech
 This project was developed with the following techs:
 
-* Code
+Code
 - Angular
 - HTML
 - SCSS
 - Ionic
 - Typescript
 
-* Design
+Design
 - Figma
 - Mockups
 - SVG Icons
